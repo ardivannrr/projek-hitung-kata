@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-hitung-kata {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  align-items: center;
+  background-color: #232323;
+  color: white;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.box-hitung-kata textarea {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.box-hitung-kata button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.box-hitung-kata #hasil {
+  font-size: 40px;
+  font-weight: bold;
+}
